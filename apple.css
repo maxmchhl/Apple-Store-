@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; 
+  }
+  
+ 
+  .navigation {
+    background-color: #f8f8f7; 
+    list-style-type: none; 
+    overflow: hidden; 
+  }
+  
+  
+  .navigation ul {
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+ 
+  .navigation li {
+    display: inline; 
+  }
+  
+  
+  .navigation a {
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none; 
+  }
+  
+  
+  .navigation a:hover {
+    background-color: #ddd; 
+    color: black; 
+  }
+
+  
+
+.main-section {
+  text-align: center;
+  background-color: #fff; 
+  padding: 100px 20px; 
+}
+
+
+.main-section h1 {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+
+.main-section p {
+  font-size: 24px; 
+  color: #555; 
+  margin-bottom: 30px; 
+}
+
+
+.main-section .cta-button {
+  font-size: 20px; /* Taille du texte pour les boutons */
+  padding: 15px 30px; 
+  margin: 10px; /* Espace extérieur des boutons */
+  color: #fff; /* Texte blanc */
+  background-color: #000; /* Fond noir */
+  border: none; /* Pas de bordure */
+  cursor: pointer; /* Curseur de pointeur pour indiquer la cliquabilité */
+  transition: background-color 0.3s; 
+}
+
+.main-section .cta-button:hover {
+  background-color: #333; 
+}
+
+
+.main-section {
+  background-image: url('path-to-your-background-image.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+
+.main-section {
+  text-align: center; 
+  background-image: url('images/vision.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  padding: 220px 40px; 
+}
+
+
+
+  
